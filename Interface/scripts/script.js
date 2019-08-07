@@ -62,7 +62,7 @@ var tbody = document.querySelector('table tbody');
 
 			var xhr = new XMLHttpRequest();
 
-			xhr.open('GET', 'http://localhost:53542/api/Aluno/', true);
+			xhr.open('GET', 'http://localhost:53542/api/Aluno/Recuperar', true);
 
 			xhr.onerror = function(){
 				console.log('ERROR', xhr.readyState);

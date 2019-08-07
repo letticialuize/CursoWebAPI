@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Marta",
+    "Sobrenome": "Kent",
+    "Telefone": "1234567",
+    "Data": "2001-10",
+    "RegistroAcademico": 1
+  },
+  {
+    "Id": 3,
+    "Nome": "Arthur",
+    "Sobrenome": "Augusto",
+    "Telefone": "33556098",
+    "Data": "2004-05",
+    "RegistroAcademico": 3
+  },
+  {
+    "Id": 4,
+    "Nome": "Letticia",
+    "Sobrenome": "Luize",
+    "Telefone": "55648898",
+    "Data": "2010-05",
+    "RegistroAcademico": 4
+  },
+  {
+    "Id": 5,
+    "Nome": "Vitor",
+    "Sobrenome": "Souza",
+    "Telefone": "55648898",
+    "Data": "2014-05",
+    "RegistroAcademico": 5
+  },
+  {
+    "Id": 13,
+    "Nome": "Alexandra",
+    "Sobrenome": "Santos",
+    "Telefone": "12345",
+    "Data": "2014-05",
+    "RegistroAcademico": 122
+  }
+]

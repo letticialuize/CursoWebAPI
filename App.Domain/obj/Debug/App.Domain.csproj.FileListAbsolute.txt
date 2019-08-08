@@ -1,0 +1,6 @@
+C:\Projetos\Git\CursoWebAPI\App.Domain\bin\Debug\App.Domain.dll
+C:\Projetos\Git\CursoWebAPI\App.Domain\bin\Debug\App.Domain.pdb
+C:\Projetos\Git\CursoWebAPI\App.Domain\obj\Debug\App.Domain.csprojAssemblyReference.cache
+C:\Projetos\Git\CursoWebAPI\App.Domain\obj\Debug\App.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Git\CursoWebAPI\App.Domain\obj\Debug\App.Domain.dll
+C:\Projetos\Git\CursoWebAPI\App.Domain\obj\Debug\App.Domain.pdb

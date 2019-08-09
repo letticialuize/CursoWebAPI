@@ -173,10 +173,10 @@ var tbody = document.querySelector('table tbody');
 		{
 
 			var trow = `<tr>
-							<td>${estudante.Nome}</td>
-							<td>${estudante.Sobrenome}</td>
-							<td>${estudante.Telefone}</td>
-							<td>${estudante.RegistroAcademico}</td>
+							<td>${estudante.nome}</td>
+							<td>${estudante.sobrenome}</td>
+							<td>${estudante.telefone}</td>
+							<td>${estudante.registroAcademico}</td>
 							<td>
 								<button class="btn btn-info" data-toggle="modal" data-target="#exampleModal" onclick='editarEstudante(${JSON.stringify(estudante)})'> Editar </button>
 								<button class="btn btn-danger" onclick='excluir(${JSON.stringify(estudante)})'> Excluir </button>

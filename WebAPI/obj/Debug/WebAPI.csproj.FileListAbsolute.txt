@@ -150,3 +150,16 @@ C:\Projetos\Git\CursoWebAPI\WebAPI\bin\pt-br\System.Net.Http.Formatting.resource
 C:\Projetos\Git\CursoWebAPI\WebAPI\bin\pt-br\System.Web.Http.resources.dll
 C:\Projetos\Git\CursoWebAPI\WebAPI\bin\pt-br\System.Web.Http.WebHost.resources.dll
 C:\Projetos\Git\CursoWebAPI\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Cors.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Owin.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\System.Web.Http.Owin.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.xml
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Cors.xml
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\System.Web.Http.Owin.xml
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Security.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Security.xml
+C:\Projetos\Git\CursoWebAPI\WebAPI\bin\Microsoft.Owin.Security.OAuth.xml

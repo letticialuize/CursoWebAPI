@@ -10,10 +10,10 @@ var tbody = document.querySelector('table tbody');
 
 			console.log(aluno);
 
-			if(aluno.Id === undefined || aluno.Id === 0)
+			if(aluno.id === undefined || aluno.id === 0)
 				salvarEstudantes('POST', 0, aluno);		
 			else
-				salvarEstudantes('PUT', aluno.Id, aluno);		
+				salvarEstudantes('PUT', aluno.id, aluno);		
 
 			carregaEstudantes();
 
@@ -63,7 +63,8 @@ var tbody = document.querySelector('table tbody');
 			var xhr = new XMLHttpRequest();
 
 			xhr.open('GET', 'http://localhost:53542/api/Aluno/Recuperar', true);
-
+			xhr.setRequestHeader('Authorization', sessionStorage.getItem('token'));
+			
 			xhr.onerror = function(){
 				console.log('ERROR', xhr.readyState);
 			}
@@ -123,7 +124,7 @@ var tbody = document.querySelector('table tbody');
 		{
 
 			bootbox.confirm({
-			    message: `Tem certeza que deseja excluir o estudante ${estudante.Nome} ?`,
+			    message: `Tem certeza que deseja excluir o estudante ${estudante.nome} ?`,
 			    buttons: {
 			        confirm: {
 			            label: 'Sim',
@@ -138,7 +139,7 @@ var tbody = document.querySelector('table tbody');
 			    {
 			        if(result)
 					{
-						excluirEstudante(estudante.Id);
+						excluirEstudante(estudante.id);
 						carregaEstudantes();
 					}
 			    }
@@ -152,13 +153,13 @@ var tbody = document.querySelector('table tbody');
 			var btnSalvar = document.querySelector('#btnSalvar');
 			var tituloModal = document.querySelector('#tituloModal');
 
-			document.querySelector('#nome').value = estudante.Nome;
-			document.querySelector('#sobrenome').value = estudante.Sobrenome;
-			document.querySelector('#telefone').value = estudante.Telefone;
-			document.querySelector('#ra').value = estudante.RegistroAcademico;
+			document.querySelector('#nome').value = estudante.nome;
+			document.querySelector('#sobrenome').value = estudante.sobrenome;
+			document.querySelector('#telefone').value = estudante.telefone;
+			document.querySelector('#ra').value = estudante.registroAcademico;
 
 			btnSalvar.textContent = 'Salvar';
-			tituloModal.textContent = `Editar Aluno ${estudante.Nome}`;
+			tituloModal.textContent = `Editar Aluno ${estudante.nome}`;
 
 			aluno = estudante;
 
